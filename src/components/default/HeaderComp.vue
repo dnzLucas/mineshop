@@ -12,8 +12,7 @@ const links = [
   { to: '/nether', label: 'Nether' },
   { to: '/end', label: 'The end' },
   { to: '/overworld', label: 'Overworld' },
-  { to: '/about', label: 'Finalizar compra' }
-]
+  { to: '/', label: 'Home'},]
 
 function toggleMenu() {
   isMenuOpen.value = !isMenuOpen.value
