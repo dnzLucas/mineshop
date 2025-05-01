@@ -1,0 +1,50 @@
+.hamburger-alt {
+    width: 56px;
+    height: 56px;
+    background: #7b7b7b; /* cor tipo pedra */
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    border: 3px solid #1c1c1c;
+    box-shadow:
+        inset 2px 2px 0 #d9d9d9,
+        inset -2px -2px 0 #4a4a4a,
+        0 0 0 0.7px black;
+    text-shadow:
+        1px 1px 0 #000000;
+    transition: background 0.2s;    cursor: pointer;
+
+    &:hover {
+        background-color: #97a9fe;
+        .bar{
+            background-color: yellow;
+        }
+    }
+
+        .bar {
+        width: 90%;
+        height: 6px;
+        background-color: #fff; /* tom cinza claro, tipo pedra */
+        border-radius: 1px;
+        text-shadow:
+        1px 1px 0 #000000;
+        }
+        &:active {
+            transform: translateY(1px);
+        }
+
+
+  }
+  
+
+
+@media (max-width: 720px) {
+    .hamburger-alt{
+        display: flex;
+        z-index: 9999; /* ⬅ garante que fique por cima */
+        position: relative; /* necessário pra z-index funcionar */
+    }
+}
+
