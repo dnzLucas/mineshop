@@ -9,5 +9,6 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
+<style>
+@import "../src/assets/scss/style.scss";
 </style>
