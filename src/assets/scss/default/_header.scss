@@ -1,0 +1,40 @@
+header{
+    align-items: start;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo img{
+        width: 120px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+    .buttons {
+      display: none !important;
+
+    }
+  
+    .buttons.open {
+      display: flex !important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 10;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      padding: 30vh 0 0 0;
+      gap: 20px;
+    }
+  }

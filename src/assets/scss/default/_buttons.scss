@@ -1,0 +1,30 @@
+@import "https://fonts.cdnfonts.com/css/minecraftia";       
+
+.button {
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 14px;
+    color: white;
+    background: #7b7b7b;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow:
+        inset 2px 2px 0 #d9d9d9,
+        inset -2px -2px 0 #4a4a4a,
+        0 0 0 0.7px black;
+    text-shadow:
+        1px 1px 0 #000000;
+    transition: background 0.2s;
+
+    &:hover {
+        background-color: #97a9fe;
+        color: yellow;
+    }
+    
+    
+    &:active {
+        transform: translateY(1px);
+}
+}
