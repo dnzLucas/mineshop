@@ -2,6 +2,7 @@
 import { RouterLink, RouterView, useRoute } from 'vue-router'
 import { computed } from 'vue'
 import HeaderComp from './components/default/HeaderComp.vue'
+import FooterComp from './components/default/FooterComp.vue'
 const route = useRoute()
 const isHome = computed(() => route.path === '/')
 const layoutRoutes = ['/overworld', '/nether', '/end']
@@ -11,7 +12,7 @@ const showLayout = computed(() => layoutRoutes.includes(route.path))
 
 <template>
     <HeaderComp v-if="showLayout"/>
-
+    <FooterComp v-if="showLayout"/>
   <RouterView />
 </template>
 
