@@ -35,14 +35,14 @@ main{
     main{
         background-image: url("../../../assets/images/home/wallpaper_minecraft_update_aquatic_1080x1920.png");
 
-        
-        .buttons{
-            display: flex !important;
-            width: 100vw;
+        .container{
+            .buttons{
+                display: flex !important;
+                width: 50vw !important;
+                align-items: center;
+                justify-content: center;
+            }
+    
         }
-        .buttons{
-            width: 50vw;
-        }
-
     }
 }

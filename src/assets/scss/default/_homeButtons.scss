@@ -33,17 +33,22 @@
 @media (max-width: 1315px) {
     .button{
         font-size: 1.2rem;
+        width: 100%;
     }
 }
 
 @media (max-width: 1095px) {
     .button{
         font-size: 1rem;
+        width: 100%;
+
     }
 
     @media (max-width: 720px) {
         .button{
             font-size: 1.3rem;
+            width: 50vw;
+    
         }
     }
 }
