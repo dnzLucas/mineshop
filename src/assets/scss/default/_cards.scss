@@ -4,6 +4,21 @@
     color: white;
     font-family: 'Minecraftia', sans-serif;
 
+.card-container{
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: row;
+}
+
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
 }.character {
     background-color: #222;
     padding: 0;
@@ -15,7 +30,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
+    height: 600px;
 }
 
 .character-content {

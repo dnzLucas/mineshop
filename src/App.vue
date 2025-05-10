@@ -12,8 +12,8 @@ const showLayout = computed(() => layoutRoutes.includes(route.path))
 
 <template>
     <HeaderComp v-if="showLayout"/>
+    <RouterView />
     <FooterComp v-if="showLayout"/>
-  <RouterView />
 </template>
 
 <style>
