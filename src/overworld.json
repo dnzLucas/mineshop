@@ -2,36 +2,41 @@
     {
         "name": "Conquista",
         "description": "Conquista é um personagem que vive no Overworld e é conhecido por seu desejo infinito de superar desafios épicos.",
-        "image": "images/overworld/conquista-frente.png",
-        "hover": "images/overworld/conquista-costas.png",
-        "quantidade": 10
+        "image": "overworld/conquista-frente.png",
+        "hover": "overworld/conquista-costas.png",
+        "quantidade": 10,
+        "preco": 100
     },
     {
         "name": "Sans",
         "description": "Sans é um personagem que vive no Overworld e é conhecido por sua habilidade em manipular o tempo durante batalhas.",
-        "image": "images/overworld/sans-frente.png",
-        "hover": "images/overworld/sans-costas.png",
-        "quantidade": 10
+        "image": "overworld/sans-frente.png",
+        "hover": "overworld/sans-costas.png",
+        "quantidade": 10,
+        "preco": 150
     },
     {
         "name": "Steve Redondo",
         "description": "Steve Redondo é um personagem que vive no Overworld e é conhecido por suas aventuras lendárias retratadas em histórias épicas.",
-        "image": "images/overworld/steve-filme-frente.png",
-        "hover": "images/overworld/steve-filme-costas.png",
-        "quantidade": 10
+        "image": "overworld/steve-filme-frente.png",
+        "hover": "overworld/steve-filme-costas.png",
+        "quantidade": 10,
+        "preco": 120
     },
     {
         "name": "Viltrumincible",
         "description": "Viltrumincible é um personagem que vive no Overworld e é conhecido por sua força brutal e sede de batalhas intermináveis.",
-        "image": "images/overworld/Viltrumincible-frente.png",
-        "hover": "images/overworld/Viltrumincible-cosats.png",
-        "quantidade": 10
+        "image": "overworld/Viltrumincible-frente.png",
+        "hover": "overworld/Viltrumincible-cosats.png",
+        "quantidade": 10,
+        "preco": 200
     },
     {
         "name": "Picollo",
         "description": "Piccolo é uma criatura amigável do Overworld, conhecida por sua agilidade e inteligência. Sempre alerta, ele explora florestas e planícies em busca de aventuras e aliados.",
-        "image": "images/overworld/picollo-frente.png",
-        "hover": "images/overworld/picollo-costas.png",
-        "quantidade": 10
+        "image": "overworld/picollo-frente.png",
+        "hover": "overworld/picollo-costas.png",
+        "quantidade": 10,
+        "preco": 80
     }
 ]

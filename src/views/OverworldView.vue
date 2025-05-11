@@ -1,12 +1,12 @@
 <script setup>
 import Cards from '@/components/default/Cards.vue';
+import overworldJson from "../overworld.json" // Ou outro arquivo JSON como nether.json ou end.json
 
 </script>
 
 <template>
 <div class="container">
-    <Cards/>
-</div>
+    <Cards :charactersRaw="overworldJson" /></div>
 </template>
 
 <style>
