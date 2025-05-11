@@ -5,18 +5,34 @@ import overworldJson from "../overworld.json" // Ou outro arquivo JSON como neth
 </script>
 
 <template>
-<div class="container">
+<div class="overworld-container">
+    <div class="overworld-banner">
+        <h1>Overworld</h1>
+    </div>
     <Cards :charactersRaw="overworldJson" /></div>
 </template>
 
 <style>
-.container {
+.overworld-container {
     background-color: #1a1a1a;
     height: 360vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 20px;
+    margin: 10px 0 0 0;
+}
+
+.overworld-banner{
+    background-image: url(https://minecraft.wiki/images/thumb/Overworld_1.18.png/1200px-Overworld_1.18.png?9499d);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px 40px 20px;
+    color: white;
+    text-shadow:
+    1px 1px 0 #000000;
+    width: 100%;
+    text-align: center;
 }
 
 </style>
