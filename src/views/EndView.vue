@@ -5,18 +5,32 @@ import endJson from "../end.json" // Ou outro arquivo JSON como nether.json ou e
 </script>
 
 <template>
-<div class="container">
+<div class="end-container">
+    <div class="end-banner">
+        <h1>End</h1>
+    </div>
     <Cards :charactersRaw="endJson" /></div>
 </template>
 
 <style>
-.container {
+.end-container {
     background-color: #1a1a1a;
     height: 360vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+.end-banner{
+    background-image: url(../assets/images/banners/end.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px 40px 20px;
+    color: white;
+    text-shadow:
+    1px 1px 0 #000000;
+    width: 100%;
+    text-align: center;
 }
 
 </style>
