@@ -15,7 +15,7 @@ const links = [
 
 <template>
   <main>
-    <div class="container">
+    <div class="home-container">
       <div class="welcome">
         <img src="../assets/images/minecraft.png" alt="" />
         <div class="text">
@@ -28,7 +28,6 @@ const links = [
             v-if="link.to !== route.path"
             :to="link.to"
             class="link"
-            @click="toggleMenu"
           >
             <Button :text="link.label" />
           </RouterLink>

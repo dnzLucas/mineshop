@@ -5,9 +5,7 @@ main{
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
-    height: 100vh;
-
-    .container{
+    .home-container{
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -46,7 +44,7 @@ main{
     main{
         background-image: url("../../../assets/images/home/wallpaper_minecraft_update_aquatic_1080x1920.png");
 
-        .container{
+        .home-container{
         padding: 2vh 0;
         justify-content: start;
         gap: 20vh;
