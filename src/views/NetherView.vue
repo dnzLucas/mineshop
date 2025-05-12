@@ -15,10 +15,11 @@ import netherJson from "../nether.json" // Ou outro arquivo JSON como nether.jso
 <style>
 .nether-container {
     background-color: #1a1a1a;
-    height: 360vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .nether-banner{

@@ -5,7 +5,7 @@ import HeaderComp from './components/default/HeaderComp.vue'
 import FooterComp from './components/default/FooterComp.vue'
 const route = useRoute()
 const isHome = computed(() => route.path === '/')
-const layoutRoutes = ['/overworld', '/nether', '/end']
+const layoutRoutes = ['/overworld', '/nether', '/end', '/cart']
 
 const showLayout = computed(() => layoutRoutes.includes(route.path))
 </script>
