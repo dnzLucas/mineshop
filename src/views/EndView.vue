@@ -7,7 +7,7 @@ import endJson from "../end.json" // Ou outro arquivo JSON como nether.json ou e
 <template>
 <div class="end-container">
     <div class="end-banner">
-        <h1>End</h1>
+        <h1>The End</h1>
     </div>
     <Cards :charactersRaw="endJson" /></div>
 </template>
@@ -15,7 +15,7 @@ import endJson from "../end.json" // Ou outro arquivo JSON como nether.json ou e
 <style>
 .end-container {
     background-color: #1a1a1a;
-    height: 360vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

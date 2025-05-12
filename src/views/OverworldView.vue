@@ -15,7 +15,7 @@ import overworldJson from "../overworld.json" // Ou outro arquivo JSON como neth
 <style>
 .overworld-container {
     background-color: #1a1a1a;
-    height: 360vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -37,17 +37,21 @@ const onLeave = (character) => {
 }
 
 const addToCart = (character) => {
-  const name = character.name
-  const current = cart.value[name] || 0
+  const name = character.name;
+  const current = cart.value[name]?.quantity || 0;
 
   if (current >= 10) {
-    alert("Limite máximo de 10 unidades por personagem.")
-    return
+    alert("Limite máximo de 10 unidades por personagem.");
+    return;
   }
 
-  cart.value[name] = current + 1
-  localStorage.setItem("cart", JSON.stringify(cart.value))
-}
+  cart.value[name] = {
+    quantity: current + 1,
+    image: character.image // Salva a imagem original (não a hover)
+  };
+
+  localStorage.setItem("cart", JSON.stringify(cart.value));
+};
 </script>
 
 <template>
@@ -72,7 +76,7 @@ const addToCart = (character) => {
           <p class="price-character">R$ {{ character.preco.toFixed(2).replace('.', ',') }}</p>
         </div>
         <div class="cart">
-          <Button :text="`Adicionar ao carrinho (${cart[character.name] || 0})`"
+          <Button :text="`Adicionar ao carrinho (${cart[character.name]?.quantity || 0})`"
             class="button"
             :class="{ 'limit-reached': cart[character.name] >= 5 }"
             @click="addToCart(character)"

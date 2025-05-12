@@ -9,10 +9,12 @@ const route = useRoute()
 const isMenuOpen = ref(false)
 
 const links = [
+  { to: '/overworld', label: 'Overworld' },
   { to: '/nether', label: 'Nether' },
   { to: '/end', label: 'The end' },
-  { to: '/overworld', label: 'Overworld' },
-  { to: '/', label: 'Home'},]
+  { to: '/', label: 'Home'},
+  { to: '/cart', label: 'Carrinho' },]
+
 
 function toggleMenu() {
   isMenuOpen.value = !isMenuOpen.value
