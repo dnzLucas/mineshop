@@ -1,0 +1,107 @@
+footer{
+    background-color: #000000;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+    height: 20vh;
+
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        height: 20vh;
+
+        .footer-logos{
+            display: flex;
+            align-items: center;
+
+            #if{
+                width: 70px;
+            }
+            #trembo{
+                width: 120px;
+            }
+
+
+        }
+        .mine-games{
+            text-align: start;
+            ul{
+                list-style: none;
+                text-align: left;
+            }
+            a{
+                text-decoration: none;
+                color: #2e597e;
+
+                &:hover{
+                    color: #1580dd;
+                }
+            }
+        }
+
+        .age10{
+            height: 100%;
+
+            img{
+                width: 60%;
+                height: 100%;
+            }
+        }
+    }
+    .rights{
+        display: flex;
+        background-color: #11242c;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 720px) {
+    footer{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+
+
+        .footer-content{
+            height: 100%;
+            flex-direction: column  ;
+            gap: 20px;
+
+            .footer-logos{
+                justify-content: center;
+                #if{
+                    width: 50px;
+                }
+                #trembo{
+                    width: 100px;
+                }
+            }
+        
+            .mine-games{
+                text-align: center;
+                ul{
+                    text-align: center;
+                }
+            }
+
+            .age10{
+                height: 100%;
+                width: 100%;
+                img{
+                    width: 40%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .rights{
+            display: flex;
+            background-color: #11242c;
+            width: 100%;
+        }
+    }
+
+}

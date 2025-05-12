@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Omniman",
+        "description": "Omniman é um personagem que vive no End e é conhecido por sua força esmagadora e domínio dos céus.",
+        "image": "end/omniman-frente.png",
+        "hover": "end/omniman-costas.png",
+        "quantidade": 10,
+        "preco": 99.90
+    },
+    {
+        "name": "Optimus Prime",
+        "description": "Optimus Prime é um personagem que vive no End e é conhecido por liderar exércitos com bravura e sabedoria.",
+        "image": "end/Optimus-Prime-frente.png",
+        "hover": "end/Optimus-Prime-costas.png",
+        "quantidade": 10,
+        "preco": 119.90
+    },
+    {
+        "name": "Sonic Franchise",
+        "description": "Sonic é um personagem que vive no End e é conhecido por sua velocidade inacreditável entre os mundos.",
+        "image": "end/Sonic-Franchise-frente.png",
+        "hover": "end/Sonic-Franchise-costas.png",
+        "quantidade": 10,
+        "preco": 79.90
+    },
+    {
+        "name": "Technoblade",
+        "description": "Technoblade é um personagem que vive no End e é conhecido por sua habilidade lendária em batalhas épicas.",
+        "image": "end/technoblade-frente.png",
+        "hover": "end/technoblade-costas.png",
+        "quantidade": 10,
+        "preco": 89.90
+    },
+    {
+        "name": "Tralalero Tralala",
+        "description": "Tralalero é um personagem que vive no End e é conhecido por seu jeito misterioso e canções mágicas.",
+        "image": "end/tralalero-tralala-frente.png",
+        "hover": "end/tralalero-tralala-costas.png",
+        "quantidade": 10,
+        "preco": 69.90
+    }
+]

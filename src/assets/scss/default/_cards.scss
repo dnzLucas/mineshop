@@ -4,6 +4,21 @@
     color: white;
     font-family: 'Minecraftia', sans-serif;
 
+.card-container{
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: row;
+}
+
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
 }.character {
     background-color: #222;
     padding: 0;
@@ -15,7 +30,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
+    height: 600px;
 }
 
 .character-content {
@@ -39,7 +54,6 @@
     width: 100%;
     height: 100%;
     box-shadow: inset 0 20px 30px rgba(0, 0, 0, 0.8);
-    pointer-events: none;
     z-index: 1;
 }
 
@@ -55,6 +69,14 @@
 .character-image {
     max-width: 180px;
     height: auto;
+}
+
+.price-character{
+    color: green;
+    font-size: 16px;
+    margin: 10px 0;
+    background-color: #1a1a1a;
+    padding: 10px;
 }
 
 .name-character {

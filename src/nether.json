@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Chicken Jockey",
+        "description": "Chicken Jockey é um personagem que vive no Nether e é conhecido por sua velocidade em montarias assustadoras.",
+        "image": "nether/chicken-jockey-frente.png",
+        "hover": "nether/chicken-jockey-costas.png",
+        "quantidade": 10,
+        "preco": 59.90
+    },
+    {
+        "name": "Humpty Dumpty",
+        "description": "Personagem de enorme importância no mundo Minecraft!",
+        "image": "nether/humpty-frente.png",
+        "hover": "nether/humpty-costas.png",
+        "quantidade": 10,
+        "preco": 49.90
+    },
+    {
+        "name": "Cecil",
+        "description": "Cecil é um personagem que vive no Nether e é conhecido por sua inteligência ao criar artefatos mágicos raros.",
+        "image": "nether/cecil-frente.png",
+        "hover": "nether/cecil-costas.png",
+        "quantidade": 10,
+        "preco": 69.90
+    },
+    {
+        "name": "Lebron James",
+        "description": "LeBron James é um personagem que vive no Nether e é conhecido por sua habilidade em criar poções poderosas.",
+        "image": "nether/lebron-frente.png",
+        "hover": "nether/lebron-costas.png",
+        "quantidade": 10,
+        "preco": 79.90
+    },
+    {
+        "name": "Steve Ghast",
+        "description": "Steve Ghast é um personagem que vive no Nether e é conhecido por sua força ao controlar as chamas do Nether.",
+        "image": "nether/steve-ghast-frente.png",
+        "hover": "nether/steve-ghast-costas.png",
+        "quantidade": 10,
+        "preco": 89.90
+    }
+]
